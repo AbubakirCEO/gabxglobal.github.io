@@ -5,24 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAB-X GLOBAL // Rasmiy Tizim</title>
     <style>
-        html, body {
+        body {
             margin: 0;
             padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
             background-color: #0e1621;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
         }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
+        .container {
+            padding: 20px;
+            border-radius: 15px;
+            background: linear-gradient(145deg, #17212b, #0e1621);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            max-width: 90%;
+        }
+        h1 {
+            color: #2481cc;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        p {
+            color: #7f91a4;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(90deg, #2481cc, #1e6fa8);
+            color: white;
+            padding: 15px 35px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 30px;
+            box-shadow: 0 4px 15px rgba(36, 129, 204, 0.4);
+            transition: 0.3s ease;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(36, 129, 204, 0.6);
         }
     </style>
 </head>
 <body>
 
-    <iframe src="https://sites.google.com/view/gabxglobal" allow="clipboard-read; clipboard-write; geolocation"></iframe>
+    <div class="container">
+        <h1>GAB-X GLOBAL</h1>
+        <p>Raqamli ekotizim va interfaol platforma boshqaruv paneli.</p>
+        
+        <a href="https://sites.google.com/view/gabxglobal" class="btn">Tizimga Kirish</a>
+    </div>
 
 </body>
 </html>
